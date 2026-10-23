@@ -70,4 +70,4 @@ def test_user_registration(page):
 
     # --- Step 6: Verify Account Creation Confirmation ---
     confirmation_msg = registration_page.get_confirmation_msg()
-    expect(confirmation_msg).to_have_text("Your Account Has Been Created!!")
+    expect(confirmation_msg).to_have_text("Your Account Has Been Created!")
